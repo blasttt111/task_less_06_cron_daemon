@@ -51,7 +51,8 @@ DAEMON
 
 8. Поправил юнит файл чтобы сервис использовал `syslog`, добавил `logger`
 
-<img width="767" height="432" alt="image" src="https://github.com/user-attachments/assets/18653ffc-beb0-4d82-ae26-ab1e563ee7d4" />
+<img width="707" height="433" alt="image" src="https://github.com/user-attachments/assets/649adaf8-1678-423c-bb85-4be784f2a7f8" />
+
 
 9. Создал файл `/etc/rsyslog.d/100-nodeapp.conf` для перехвата логов через `syslog`
 
@@ -61,6 +62,7 @@ DAEMON
 
 <img width="679" height="315" alt="image" src="https://github.com/user-attachments/assets/de1c2134-2493-44c7-85bb-ecbd72838afe" />
 
-11. На данном этапе логи выводятся в syslog, но по какой то причине не в файлы. Сообщение example отправил сам при помощи `logger --tag nodeapp "example"`
+11. Проверил что логи выводятся в файл. Сообщение example отправил сам при помощи `logger --tag nodeapp "example"`
 
-<img width="588" height="60" alt="image" src="https://github.com/user-attachments/assets/5b007d9b-ab43-4c02-9620-b992cd4214eb" />
+<img width="1004" height="349" alt="image" src="https://github.com/user-attachments/assets/6a853684-a2b6-417b-9d08-8724275c5e9f" />
+
